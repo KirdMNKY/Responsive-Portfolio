@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/qbkls.png);
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom:160px; */
+    position: relative;
+    margin: 0 0;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #777777;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+a:active {
+    text-decoration: uderline;
+}
+
+a:hover {
+    background: #59ccc6;
+    display: inline-block;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: #cccccc;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#navbar {
+    width: 960px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    width: 205px;
+    height: 60px;
+    padding-top: 5px;
+    position: relative;
+    /* left: 0px; */
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    float: right;
+    padding-top: 20px;
+    right: -25px;
+    /* margin-right: 15%; */
+    color: #777777;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    height: 75px;
+    width: 100%;
+    z-index: 4;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    padding-top: 40px;
+    color: white;
+    /* clear: both; */
+    bottom: 0px;
+    position: sticky;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+#container {
+    position: relative;
+    clear:both;
+    /* left: 15%; */
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    position: relative;
+    min-height: 500px;
+    width: 960px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #59ccc6;
+}
+
+
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background: blue;
+    z-index: 1;
+    position: relative;
+    float: left;
+
+}
+
+.label {
+    z-index: 2;
+    color: white;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top:180px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.box1 {
+    background-image: url(../images/AppTablet.jpg);
+}
+
+.box2 {
+    background-image: url(../images/headSet.jpg);
+
+}
+
+.box3 {
+    clear: both;
+    background-image: url(../images/typeTablet.jpg);
+
+}
+
+.box4 {
+    background-image: url(../images/appPhone.jpg);
+
+}
+
+.box5 {
+    clear: both;
+    background-image: url(../images/codeScreen.jpg);
+
+}
+
+
+#myPic {
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
