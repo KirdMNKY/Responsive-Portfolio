@@ -114,14 +114,14 @@ h2 {
     position: relative;
     clear:both;
     /* left: 15%; */
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 
 section {
     position: relative;
     min-height: 500px;
-    width: 960px;
+    width: 100%;
     padding: 10px;
     border-width: 1px;
     border-style: solid;
@@ -233,49 +233,28 @@ button:hover {
     }
 
     header {
-        width: 100%;
+        width: 300%;
         margin: 0 auto;
-    }
-
-    .spacer {
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 1000px)
-{
-
-    body {
-        width: 100%;
-    }
-
-    .container {
         font-size: 30px;
     }
 
-    header {
-        margin: 0 auto;
+    section {
         width: 100%;
-    }
-
-    footer {
-        width: 300%;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    nav {
-        float: left;
-        width: 250px;
-        margin: 0 auto;
     }
 
     .spacer {
         visibility: hidden;
     }
+
+    #container {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #myPic {
+        width: 30%;
 }
+
 
 @media screen and (max-width: 768px)
 {
@@ -284,21 +263,24 @@ button:hover {
         width: 100%;
     }
 
-    .container {
+    #container {
+        width: 300%;
         font-size: 30px;
     }
 
     header {
         margin: 0 auto;
-        width: 100%;
+        width: 300%;
+        font-size: 30px;
     }
 
     footer {
         width: 300%;
     }
 
-    .container {
+    section {
         width: 100%;
+        font-size: 50px;
     }
 
     nav {
@@ -307,7 +289,12 @@ button:hover {
         margin: 0 auto;
     }
 
+
     .spacer {
         visibility: hidden;
+    }
+
+    #myPic {
+        width: 30%;
     }
 }
